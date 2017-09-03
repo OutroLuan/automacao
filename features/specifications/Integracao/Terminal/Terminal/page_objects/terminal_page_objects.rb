@@ -62,3 +62,20 @@ class PagPesquisaTerminal < SitePrism::Page
   section :Botoes, Botoes, "div[class='botoes']"
   section :Resultado, Resultado,"div=[id='resultadoPesquisa']"
 end
+
+class PagCadastroTerminal < SitePrism::Page
+  element :tipo_terminal, "select[id='formEdicao:tipoTerminalTerminalEdicao']"
+  element :numero_serie, "input[id='formEdicao:numeroSerieTerminalEdicao']"
+  element :garantia, "input[id='formEdicao:garantiaTerminalEdicao']"
+  element :data_entrada, "input[id='formEdicao:dataEntradaTerminalEdicao']"
+  element :data_compra, "input[id='formEdicao:dataCompraTerminalEdicao']"
+  element :nota_fiscal, "input[id='formEdicao:notaFiscalTerminalEdicao']"
+  element :fabricante, "select[id='formEdicao:fabricanteModeloEdicao']"
+  element :modelo, "select[id='formEdicao:modeloTerminalselct']"
+  element :id_aplicativo, "select[id='formEdicao:aplicativoTerminalEdicao']"
+  element :tipo_proprietario, "select[id='formEdicao:tipoProprietarioTerminalEdicao']"
+  element :proprietario_select, "select[id='formEdicao:integradorTerminalEdicao']"
+  element :proprietario_input, "input[id='formEdicao:empresaTerminalEdicaoFiltro_input']"
+  element :botao_gravar, "button[id='formEdicao:botaoGravar']"
+  element :botao_fechar, "button[id='formEdicao:botaoFechar']"
+end
