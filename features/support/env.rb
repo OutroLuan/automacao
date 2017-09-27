@@ -15,4 +15,4 @@ end
 Capybara.default_driver = :selenium
 Capybara.default_max_wait_time = 20
 
-Capybara.app_host = "https://sgv-int4.redetendencia.com.br/sgv"
+Capybara.app_host = "https://sgv-dev.redetendencia.com.br/sgv"

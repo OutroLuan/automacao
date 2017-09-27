@@ -1,6 +1,6 @@
 Before do
-	@usuarioSGV = "automacao.sgv"
-	@senhaSGV = "jhow"
+	@usuarioSGV = "luan.souza"
+	@senhaSGV = "Alcione110593"
 	@logins = ['jhonatan.integrado']
 	@senhas = ['jhow']
 	@msg_login = "Já existe um usuário autenticado com estas credenciais!"
